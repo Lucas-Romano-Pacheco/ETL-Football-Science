@@ -8,19 +8,6 @@
 
 Sistema completo de **ciência de dados futebolísticos**, com ETL automatizado, scraping de fontes abertas, armazenamento em banco PostgreSQL e visualização interativa via Streamlit + ECharts. Focado em clubes da elite do futebol brasileiro, oferece insights sobre desempenho, eficiência e histórico competitivo.
 
----
-
-## 📌 Índice
-
-- [✨ Funcionalidades](#-funcionalidades)
-- [📊 Fontes de Dados](#-fontes-de-dados)
-- [⚖️ Arquitetura](#-arquitetura)
-- [🛠️ Tecnologias](#-tecnologias)
-- [🚀 Setup Rápido](#-setup-rápido)
-- [🔖 Licença](#-licença)
-- [📢 Aviso](#-aviso)
-
----
 
 ## ✨ Funcionalidades
 
@@ -63,25 +50,6 @@ Sistema completo de **ciência de dados futebolísticos**, com ETL automatizado,
 - Os dados são utilizados apenas para análise e visualização, não sendo redistribuídos nem revendidos
 
 ---
-
-## ⚖️ Arquitetura
-
-```
-📁 football-science/
-├── components/        # Componentes visuais reutilizáveis (gráficos, KPIs, etc)
-├── constants/         # Temas, textos fixos e configurações globais
-├── dashboards/        # Dashboards principais (clubes, transferências, etc)
-├── notebooks/         # Análises exploratórias, validações e testes
-├── scraping/          # Scripts de scraping (Selenium + BeautifulSoup)
-├── utils/             # Funções auxiliares e formatações reutilizáveis
-│
-├── .gitignore         # Arquivos ignorados pelo Git
-├── LICENSE            # Licença de uso do projeto
-├── main.py            # Entrypoint da aplicação Streamlit
-├── README.md          # Documentação do repositório
-└── requirements.txt   # Lista de dependências Python
-```
-
 ---
 
 ## 🛠️ Tecnologias
@@ -111,13 +79,3 @@ streamlit run main.py
 ```
 
 ---
-
-## 🔖 Licença
-
-Este projeto está licenciado sob os termos da [Licença MIT](./LICENSE).
-
----
-
-## 📢 Aviso
-
-Este projeto utiliza dados de fontes abertas com finalidades analíticas e educacionais. Para decisões oficiais, consulte os sites originais. Os dados podem conter inconsistências ou atualizações não refletidas em tempo real.
