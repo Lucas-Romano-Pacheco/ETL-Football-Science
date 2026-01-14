@@ -1,0 +1,10 @@
+streamlit
+streamlit-echarts
+streamlit-javascript
+pandas
+numpy
+python-dotenv
+requests
+selenium
+beautifulsoup4
+webdriver-manager
